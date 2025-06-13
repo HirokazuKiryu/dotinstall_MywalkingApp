@@ -100,4 +100,18 @@ header img {
   margin-top: 16px;
 }
 
+/* footer
+-------------------- */
+
+footer {
+  padding: 64px 0;
+  text-align: center;
+  background-color: #333;
+  color: #fff;
+}
+
+footer small {
+  font-size: 14px;
+}
+
 
