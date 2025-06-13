@@ -1,4 +1,7 @@
 
+/* common
+-------------------- */
+
 * {
   margin: 0;
   padding: 0;
@@ -13,7 +16,12 @@ img {
   vertical-align: bottom;
 }
 
-a {
+.btn {
+  padding: 8px 16px;
+  display: inline-block;
+  border-radius: 8px;
+  background-color: green;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -25,7 +33,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: pink;
 }
 
 header img {
@@ -33,13 +40,6 @@ header img {
   height: 32px;
 }
 
-header a {
-  display: inline-block;
-  padding: 8px 16px;
-  border-radius: 8px;
-  background-color: green;
-  color: #fff;
-}
 
 
 
