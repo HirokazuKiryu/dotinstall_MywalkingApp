@@ -80,7 +80,10 @@ header img {
 
 .feature {
   margin-top: 64px;
-  text-align: left;
+}
+
+.feature div {
+  text-align: center;
 }
 
 .feature img {
@@ -90,7 +93,11 @@ header img {
 
 .feature h3 {
   font-size: 18px;
-  margin: 16px 0;
+  margin-top: 16px;
+}
+
+.feature p {
+  margin-top: 16px;
 }
 
 
