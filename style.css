@@ -13,6 +13,10 @@ h1 {
   font-size: 0;
 }
 
+h2 {
+  text-align: center;
+}
+
 img {
   vertical-align: bottom;
 }
@@ -67,12 +71,26 @@ header img {
   margin-top: 64px;
 }
 
-/* main
+/* features
 ------------------------- */
 
-main img {
+.features {
+  padding: 64px 16px;
+}
+
+.feature {
+  margin-top: 64px;
+  text-align: left;
+}
+
+.feature img {
   width: 300px;
   height: 200px;
+}
+
+.feature h3 {
+  font-size: 18px;
+  margin: 16px 0;
 }
 
 
