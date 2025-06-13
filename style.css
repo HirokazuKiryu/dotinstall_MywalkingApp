@@ -19,6 +19,7 @@ img {
 
 .btn {
   padding: 8px 16px;
+  width: 128px;
   display: inline-block;
   border-radius: 8px;
   background-color: green;
@@ -45,11 +46,11 @@ header img {
 -------------------- */
 
 .hero {
-  text-align: center;
   background-color: skyblue;
   background-image: url(bg.png);
   background-repeat: repeat-x;
   background-position: center bottom;
+  text-align: center;
 }
 
 .hero h2 {
@@ -65,7 +66,5 @@ header img {
   width: 300px;
   padding-top: 64px;
 }
-
-
 
 
