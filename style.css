@@ -5,6 +5,7 @@
 * {
   margin: 0;
   padding: 0;
+  font-weight: normal;
   box-sizing: border-box;
 }
 
@@ -40,12 +41,29 @@ header img {
   height: 32px;
 }
 
-/* section
+/* hero
 -------------------- */
 
-section img {
+.hero {
+  text-align: center;
+  background-color: skyblue;
+  background-image: url(bg.png);
+  background-repeat: repeat-x;
+  background-position: center bottom;
+}
+
+.hero h2 {
+  padding-top: 64px;
+}
+
+.hero a{
+  margin-top: 64px;
+}
+
+.hero img {
   height: 312px;
   width: 300px;
+  padding-top: 64px;
 }
 
 

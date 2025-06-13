@@ -3,5 +3,6 @@
 ## HTML構造
 
 - header
+- section
 - main 
 - footer
