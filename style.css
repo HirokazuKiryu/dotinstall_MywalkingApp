@@ -32,7 +32,6 @@ img {
 }
 
 .container {
-  background-color: pink;
   max-width: 800px;
   margin: 0 auto;
   width: calc(100% - 32px);
@@ -86,7 +85,7 @@ header img {
 ------------------------- */
 
 .features {
-  padding: 64px 16px;
+  padding: 64px 0;
 }
 
 .feature {
