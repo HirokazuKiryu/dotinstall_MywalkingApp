@@ -46,6 +46,10 @@ header img {
   height: 32px;
 }
 
+.logo-pc {
+  display: none;
+}
+
 /* hero
 -------------------- */
 
@@ -118,6 +122,16 @@ footer small {
 -------------------- */
 
 @media (min-width: 600px) {
+
+  .logo-sp {
+    display: none;
+  }
+  
+  .logo-pc {
+    display: inline;
+    width: 284px;
+    height: 32px;
+}
 
 }
 
