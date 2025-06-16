@@ -142,12 +142,12 @@ footer small {
 /* large-hero
 -------------------- */
 
-  .hero {
+  .hero .container {
     display: flex;
     align-items: center;
   }
 
-  .hero div {
+  .hero .container div {
     flex: 1;
   }
 
