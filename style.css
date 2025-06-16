@@ -54,7 +54,7 @@ header img {
 -------------------- */
 
 .hero {
-  background-color: skyblue;
+  background-color: #99e5fb;
   background-image: url(bg.png);
   background-repeat: repeat-x;
   background-position: center bottom;
@@ -123,6 +123,8 @@ footer small {
 
 @media (min-width: 600px) {
 
+/* @large-header
+-------------------- */
   .logo-sp {
     display: none;
   }
@@ -132,6 +134,22 @@ footer small {
     width: 284px;
     height: 32px;
 }
+
+/* large-hero
+-------------------- */
+
+  .hero {
+    display: flex;
+    align-items: center;
+  }
+
+  .hero div {
+    flex: 1;
+  }
+
+  .hero img {
+    margin-top: 0;
+  }
 
 }
 
