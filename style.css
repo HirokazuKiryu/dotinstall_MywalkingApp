@@ -151,5 +151,25 @@ footer small {
     margin-top: 0;
   }
 
+/* large-feature
+-------------------- */
+
+.feature {
+  display: flex;
+  gap: 32px;
+}
+
+.feature:nth-child(odd) {
+  flex-direction: row-reverse;
+}
+
+.feature .image {
+  width: 300px;
+}
+
+.feature .caption {
+  flex: 1;
+}
+
 }
 
